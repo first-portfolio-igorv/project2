@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    margin: 60px;
+}
+.menu{
+    margin: 30px auto;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight:600;
+}
+.main{
+    margin: auto;
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.containers{
+    height: 406px;
+    width: 406px;
+    border: 3px solid black;
+}
+.first{
+    font-size: 0;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-image: url(./photo-1453728013993-6d66e9c9123a.jpg);
+}
+.box-box{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.box[id="1"]{
+    background-position:10% 0% ;
+}
+.box[id="2"]{
+    background-position:21% 0%;
+}
+.box[id="3"]{
+    background-position: 32% 0%;  
+}
+.box[id="4"]{
+    background-position: 43% 0%;  
+}
+.box[id="5"]{
+    background-position: 10% 18%;  
+}
+.box[id="6"]{
+    background-position: 21% 18%;  
+}
+.box[id="7"]{
+    background-position: 32% 18%;  
+}
+.box[id="8"]{
+    background-position: 43% 18%;  
+}
+.box[id="9"]{
+    background-position: 10% 36%;  
+}
+.box[id="10"]{
+    background-position: 21% 36%;  
+}
+.box[id="11"]{
+    background-position: 32% 36%;  
+}
+.box[id="12"]{
+    background-position: 43% 36%;  
+}
+.box[id="13"]{
+    background-position: 10% 54%;  
+}
+.box[id="14"]{
+    background-position:21% 54%;  
+}
+.box[id="15"]{
+    background-position:32% 54%;  
+}
+.box[id="16"]{
+    background-position: 43% 54%;  
+}
+.boxz{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+.second{
+    display: flex;
+    flex-wrap: wrap;
+}
+.window,.window1{
+    display: none;
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    top:60px;
+    left: 50%;
+    margin-left: -300px;
+    background-color:whitesmoke;
+    text-align: center;
+    padding-top: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    z-index: 4;
+}
+h2{
+    margin:30px
+}
+hr{
+    height: 3px;
+    background-color: black;
+}
+.grey{
+    display: none;
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: gray;
+    opacity: 70%;
+}
